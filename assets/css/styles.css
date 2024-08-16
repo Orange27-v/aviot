@@ -564,6 +564,11 @@ footer {
 }
 
 @media screen and (min-width: 361px) and (max-width: 412px) {
+   /* Utility classes  */
+   .btn-aviot-dark {
+    padding: 15px 25px;
+  }
+
   /* Expandable image slider for home page  */
 
   .container-expandable {
@@ -578,16 +583,225 @@ footer {
   .expanded-desc {
     top: 10%;
     opacity: 0 !important;
+    display: none;
+    transition: display 0.4s ease-in 0.4s;
   }
 
   .expanded-desc.active {
+    display: block;
     opacity: 1 !important;
+    transition: display 0.4s ease-in 0.4s;
+    transition: opacity 0.4s ease-in 0.4s;
   }
 
+  .expand-sm-details h3 {
+    font-size: 18px;
+  }
+
+  /* SECTION TWO  */
+
+  .service-section {
+    padding: 0 10px;
+    margin: 40px 0 0px 0;
+  }
+
+  .services-ctn {
+    margin: -50px 0 0 0;
+    text-align: center;
+  }
+
+  .industries-service-title h2 {
+    font-size: 28px;
+  }
+
+  .industries-details {
+    flex-wrap: nowrap;
+  }
+
+  .heading-title {
+    font-size: 38px;
+  }
+  /* SECTION TWO  */
   /* Expandable image slider for home page  */
+
+  /* SECTION THREE  */
+  .about-section {
+    margin: 0px 0;
+    padding: 0 0px;
+  }
+
+  .about-info {
+    padding: 5px;
+    text-align: center;
+  }
+
+  .about-card-ctn,
+  .about-img-ctn {
+    width: 100%;
+  }
+
+  .about-card {
+    margin: 10px 10px;
+  }
+
+  .about-img {
+    margin: 0 0;
+    display: flex;
+  }
+
+  .about-img img {
+    height: 400px;
+    width: 100%;
+    border-radius: 10px;
+  }
+  /* SECTION THREE  */
+
+  /* FOURTH SECTION  */
+
+  .brands-section {
+    padding: 0 5px;
+  }
+
+  .brand-card-img {
+    margin: 0 3px;
+  }
+
+  /* FOURTH SECTION  */
+
+  /* FIFTH SECTION  */
+
+  .section-cta {
+    padding: 0 5px;
+  }
+
+  .section-cta-content img {
+    height: 280px;
+}
+
+  /* FIFTH SECTION  */
+
+
 }
 
 @media screen and (min-width: 413px) and (max-width: 575px) {
+  /* Utility classes  */
+  .btn-aviot-dark {
+    padding: 15px 25px;
+  }
+
+  /* Expandable image slider for home page  */
+
+  .container-expandable {
+    margin: 10px 0;
+  }
+
+  .expandable {
+    margin: 1px;
+    flex: 0.1;
+  }
+
+  .expanded-desc {
+    top: 10%;
+    opacity: 0 !important;
+    display: none;
+    transition: display 0.4s ease-in 0.4s;
+  }
+
+  .expanded-desc.active {
+    display: block;
+    opacity: 1 !important;
+    transition: display 0.4s ease-in 0.4s;
+    transition: opacity 0.4s ease-in 0.4s;
+  }
+
+  .expand-sm-details h3 {
+    font-size: 18px;
+  }
+
+  /* SECTION TWO  */
+
+  .service-section {
+    padding: 0 10px;
+    margin: 40px 0 0px 0;
+  }
+
+  .services-ctn {
+    margin: -50px 0 0 0;
+    text-align: center;
+  }
+
+  .industries-service-title h2 {
+    font-size: 28px;
+  }
+
+  .industries-details {
+    flex-wrap: nowrap;
+  }
+
+  .heading-title {
+    font-size: 38px;
+  }
+  /* SECTION TWO  */
+  /* Expandable image slider for home page  */
+
+  /* SECTION THREE  */
+  .about-section {
+    margin: 0px 0;
+    padding: 0 0px;
+  }
+
+  .about-info {
+    padding: 5px;
+    text-align: center;
+  }
+
+  .about-card-ctn,
+  .about-img-ctn {
+    width: 100%;
+  }
+
+  .about-card {
+    margin: 10px 10px;
+  }
+
+  .about-img {
+    margin: 0 0;
+    display: flex;
+  }
+
+  .about-img img {
+    height: 400px;
+    width: 100%;
+    border-radius: 10px;
+  }
+  /* SECTION THREE  */
+
+  /* FOURTH SECTION  */
+
+  .brands-section {
+    padding: 0 5px;
+  }
+
+  .brand-card-img {
+    margin: 0 3px;
+  }
+
+  /* FOURTH SECTION  */
+
+  /* FIFTH SECTION  */
+
+  .section-cta {
+    padding: 0 5px;
+  }
+
+  .section-cta-content img {
+    height: 280px;
+}
+
+  /* FIFTH SECTION  */
+
+
+
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
